@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(140, 213, 228);
+  font-family: "Monserrat", sans-serif;
+}
+
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 10px 10%;
+  margin: 3px;
+}
+
+.intro {
+  text-align: center;
+  width: 90%;
+  font-family: "Monserrat", sans-serif;
+  font-size: large;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-weight: bold;
+  padding: 60px;
+  margin-top: 10px;
+}
+
+li, a, button {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black; 
+  text-decoration: none;
+  border-radius: 7.5px;
+}
+
+.Nav_link {
+list-style: none;
+}
+
+.Nav_link li {
+display: inline;
+padding: 10px 20px;
+background-color: whitesmoke;
+}
+
+.Nav_link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.Nav_link li a:hover {
+  color: rgb(189, 42, 42); 
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: table-cell;
+} 
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* LinkedIn */
+.fa-linkedin {
+  background: #3B5998;
+  color: white
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #616868;
+  color: white;
+}
+
+.social {
+  margin: auto;
+  width: 150px;
+  padding: 10px;
+  display:flex; justify-content:center;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .Nav_link li {
+      display: block;
+      margin: 10px;
+    }
+  }
+  
+  /* centering the created by team 5*/
+  #p2 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
